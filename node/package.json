@@ -1,0 +1,37 @@
+{
+  "name": "@softprim/dragonstar-curier",
+  "version": "1.0.0",
+  "description": "Client Node.js open-source pentru API-ul Dragon Star Curier v1 (AWB, urmărire, etichete, ridicări, borderouri).",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/client.test.js"
+  },
+  "keywords": [
+    "dragon star",
+    "dragonstar",
+    "curier",
+    "courier",
+    "awb",
+    "romania",
+    "shipping"
+  ],
+  "author": "SoftPrim Technology SRL <office@softprim.ro> (https://softprim.ro)",
+  "license": "MIT",
+  "homepage": "https://github.com/softprim/dragonstar-curier-sdk/tree/main/node#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softprim/dragonstar-curier-sdk.git",
+    "directory": "node"
+  },
+  "bugs": {
+    "url": "https://github.com/softprim/dragonstar-curier-sdk/issues",
+    "email": "office@softprim.ro"
+  }
+}

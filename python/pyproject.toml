@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dragonstar-curier"
+version = "1.0.0"
+description = "Python SDK for the Dragon Star Curier API v1 (AWB, tracking, labels, pickups, manifests)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "SoftPrim Technology SRL", email = "office@softprim.ro" }]
+keywords = ["dragon star", "curier", "courier", "awb", "shipping", "romania", "sdk"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/softprim/dragonstar-curier-sdk"
+Source = "https://github.com/softprim/dragonstar-curier-sdk"
+Issues = "https://github.com/softprim/dragonstar-curier-sdk/issues"
+Documentation = "https://github.com/softprim/dragonstar-curier-sdk/tree/main/python#readme"
+
+[tool.setuptools]
+packages = ["dragonstar"]
+
+[tool.setuptools.package-data]
+dragonstar = ["py.typed"]

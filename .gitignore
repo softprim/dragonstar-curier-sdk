@@ -1,0 +1,16 @@
+node_modules/
+vendor/
+composer.lock
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+bin/
+obj/
+target/
+.idea/
+.vscode/
+*.pdf
+*.zpl
+.env

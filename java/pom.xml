@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ro.softprim</groupId>
+  <artifactId>dragonstar-curier</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>Dragon Star Curier API client</name>
+  <description>Java client (SDK) for the Dragon Star Curier API v1: AWB, tracking, labels, pickups, manifests, nomenclature. Zero runtime dependencies.</description>
+  <url>https://github.com/softprim/dragonstar-curier-sdk</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>SoftPrim Technology SRL</name>
+    <url>https://softprim.ro</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <name>SoftPrim Technology SRL</name>
+      <email>office@softprim.ro</email>
+      <organization>SoftPrim Technology SRL</organization>
+      <organizationUrl>https://softprim.ro</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <url>https://github.com/softprim/dragonstar-curier-sdk</url>
+    <connection>scm:git:https://github.com/softprim/dragonstar-curier-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:softprim/dragonstar-curier-sdk.git</developerConnection>
+  </scm>
+
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <junit.version>5.10.2</junit.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+          <release>11</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.4.1</version>
+        <configuration>
+          <archive>
+            <manifestEntries>
+              <Automatic-Module-Name>ro.softprim.dragonstar</Automatic-Module-Name>
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

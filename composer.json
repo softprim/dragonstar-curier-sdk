@@ -1,0 +1,33 @@
+{
+    "name": "softprim/dragonstar-curier",
+    "description": "PHP SDK for the Dragon Star Curier API v1 (AWB, tracking, labels, pickups, manifests). Zero dependencies, PHP 7.4+.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["dragon star", "curier", "courier", "awb", "shipping", "romania", "sdk"],
+    "homepage": "https://github.com/softprim/dragonstar-curier-sdk",
+    "authors": [
+        {
+            "name": "SoftPrim Technology SRL",
+            "email": "office@softprim.ro",
+            "homepage": "https://softprim.ro"
+        }
+    ],
+    "support": {
+        "email": "office@softprim.ro",
+        "issues": "https://github.com/softprim/dragonstar-curier-sdk/issues",
+        "source": "https://github.com/softprim/dragonstar-curier-sdk"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SoftPrim\\DragonStar\\": "php/src/"
+        }
+    },
+    "scripts": {
+        "test": "php php/tests/run.php"
+    }
+}

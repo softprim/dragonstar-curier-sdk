@@ -13,20 +13,20 @@ reguli de erori și reîncercări, și teste automate.
 
 | Limbaj | Folder | Cerințe | Dependențe |
 |---|---|---|---|
-| Node.js / TypeScript | [`node/`](node) | Node 18+ | niciuna |
-| PHP | [`php/`](php) | PHP 7.4+ (ext-curl, ext-json) | niciuna |
-| Python | [`python/`](python) | Python 3.8+ | niciuna |
-| C# / .NET | [`dotnet/`](dotnet) | .NET Standard 2.0 / .NET 8 | System.Text.Json |
-| Java | [`java/`](java) | Java 11+ | niciuna |
-| Go | [`go/`](go) | Go 1.21+ | niciuna |
-| cURL | [`examples/curl/`](examples/curl) | — | — |
+| <img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" width="16" height="16" alt=""> Node.js / TypeScript | [`node/`](node) | Node 18+ | niciuna |
+| <img src="https://cdn.simpleicons.org/php/777BB4" width="16" height="16" alt=""> PHP | [`php/`](php) | PHP 7.4+ (ext-curl, ext-json) | niciuna |
+| <img src="https://cdn.simpleicons.org/python/3776AB" width="16" height="16" alt=""> Python | [`python/`](python) | Python 3.8+ | niciuna |
+| <img src="https://cdn.simpleicons.org/dotnet/512BD4" width="16" height="16" alt=""> C# / .NET | [`dotnet/`](dotnet) | .NET Standard 2.0 / .NET 8 | System.Text.Json |
+| <img src="https://cdn.simpleicons.org/openjdk/ED8B00" width="16" height="16" alt=""> Java | [`java/`](java) | Java 11+ | niciuna |
+| <img src="https://cdn.simpleicons.org/go/00ADD8" width="16" height="16" alt=""> Go | [`go/`](go) | Go 1.21+ | niciuna |
+| <img src="https://cdn.simpleicons.org/curl/2f81f7" width="16" height="16" alt=""> cURL | [`examples/curl/`](examples/curl) | — | — |
 
 ## Documentație
 
-- 📘 [Ghid API în română](docs/ghid-api.md): cheie API, autentificare, limite, erori, toate endpoint-urile, câmpurile AWB, statusuri, flux recomandat pentru magazine.
-- 📗 [API guide in English](docs/api-guide.en.md)
-- 📄 Specificația OpenAPI oficială (copie de referință): [`docs/openapi.v1.json`](docs/openapi.v1.json) (RO), [`docs/openapi.v1.en.json`](docs/openapi.v1.en.json) (EN)
-- 🔗 Documentația oficială Dragon Star: https://api.curierdragonstar.ro/docs
+- <img src=".github/assets/icons/book-open.svg" width="16" height="16" alt=""> [Ghid API în română](docs/ghid-api.md): cheie API, autentificare, limite, erori, toate endpoint-urile, câmpurile AWB, statusuri, flux recomandat pentru magazine.
+- <img src=".github/assets/icons/globe.svg" width="16" height="16" alt=""> [API guide in English](docs/api-guide.en.md)
+- <img src=".github/assets/icons/file-code.svg" width="16" height="16" alt=""> Specificația OpenAPI oficială (copie de referință): [`docs/openapi.v1.json`](docs/openapi.v1.json) (RO), [`docs/openapi.v1.en.json`](docs/openapi.v1.en.json) (EN)
+- <img src=".github/assets/icons/external-link.svg" width="16" height="16" alt=""> Documentația oficială Dragon Star: https://api.curierdragonstar.ro/docs
 
 ## Exemplu rapid
 
@@ -92,13 +92,13 @@ Contractul comun e descris în [CONTRIBUTING.md](CONTRIBUTING.md).
 Detalii în [ghidul API](docs/ghid-api.md#2-obținerea-cheii-api). API-ul vechi rămâne disponibil
 cel puțin până la **31 martie 2027**, dar nu mai primește funcționalități noi.
 
-## 🛒 Module pentru platforme de e-commerce
+## <img src=".github/assets/icons/shopping-cart.svg" width="22" height="22" alt=""> Module pentru platforme de e-commerce
 
 Aveți nevoie de un **modul gata de instalat** pentru **Shopify, WooCommerce, OpenCart, PrestaShop,
 Magento** sau altă platformă? De o integrare cu ERP-ul, programul de facturare sau gestiunea voastră?
 De **actualizări**, suport sau o funcționalitate nouă în SDK?
 
-📧 Scrieți-ne la **[office@softprim.ro](mailto:office@softprim.ro)** — SoftPrim Technology SRL.
+<img src=".github/assets/icons/mail.svg" width="16" height="16" alt=""> Scrieți-ne la **[office@softprim.ro](mailto:office@softprim.ro)** — SoftPrim Technology SRL.
 
 > Need a ready-made Shopify / WooCommerce / OpenCart / PrestaShop / Magento module, a custom
 > integration or updates? Contact **office@softprim.ro**.

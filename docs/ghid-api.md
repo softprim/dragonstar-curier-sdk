@@ -225,11 +225,11 @@ Pentru `/v1/awb/quote` se trimit aceleași câmpuri, fără cele ale destinataru
 |---|---|---|
 | 1 | Generat | |
 | 2 | Excepție (problemă de livrare) | |
-| 3 | Livrat | ✔ |
+| 3 | Livrat | <img src="../.github/assets/icons/check.svg" width="16" height="16" alt="da"> |
 | 4 | Avizat | |
 | 5 | Preluat | |
 | 6 | În tranzit | |
-| 7 | Returnat | ✔ |
+| 7 | Returnat | <img src="../.github/assets/icons/check.svg" width="16" height="16" alt="da"> |
 | 18 | Spre livrare | |
 | 19 | Redirecționat | |
 | 21 | În centrul de destinație | |
